@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- how to create loging page in html and css -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Loginpage.css">
+</head>
+
+<body>
+    <div class="neumorphic-card">
+        <div class="neumorphic-card__header">Login</div>
+        <form onsubmit="event.preventDefault()" action="" class="neumorphic-form">
+            <div class="neumorphic-input-wrapper">
+                <label for="neumorphic-username">Username</label>
+                <input type="text" name="neumorphic-username" id="neumorphic-username">
+            </div>
+            <div class="neumorphic-input-wrapper">
+                <label for="neumorphic-password">Password</label>
+                <input type="password" name="neumorphic-password" id="neumorphic-password">
+            </div>
+            <button type="submit">Sign in</button>
+        </form>
+        <div class="neumorphic-card__footer">
+            <p>Forgot Password? <a href="#">click here</a></p>
+        </div>
+    </div>
+</body>
+</html>
